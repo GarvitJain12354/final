@@ -4260,7 +4260,7 @@ opacity: 1 !important;
 
  @media (min-device-width:320px) and (max-device-width:768px) {
   .swiper-slide .text{
-    opacity: 0 !important;
+    opacity: 1 !important;
    }
    .swiper-slide-active .text{
 opacity: 1 !important;
@@ -4272,12 +4272,12 @@ opacity: 1 !important;
 } 
 
 
-
+/* 
 
 
 @media (min-device-width:393px) and (max-device-width:815px) {
   .swiper-slide .text{
-    opacity: 0 !important;
+    opacity: 1 !important;
    }
    .swiper-slide-active .text{
 opacity: 1 !important;
@@ -4298,4 +4298,4 @@ opacity: 1 !important;
         
         
        }
-     } 
+     }  */
