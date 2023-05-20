@@ -3748,7 +3748,7 @@ height: 100vh;
   }
 
   #page3 .page:nth-child(2) {
-    height: 42vh;
+    height: 80vw;
     background-color: black;
   }
 
@@ -4267,6 +4267,7 @@ opacity: 1 !important;
     
     
    }
+
 
    
 } 
