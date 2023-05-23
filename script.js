@@ -28,9 +28,7 @@ var swiper = new Swiper(".mySwiper", {
             // elem.childNodes[5].style.display= "flex"
       
             document.querySelector("#cross").style.display = "flex"
-            document.querySelectorAll(".swiper-slide").forEach(function(a){
-                a.style.opacity = "0"
-            })
+        
              document.querySelector("#page4").style.display = "none"
             document.querySelector("#page5").style.display = "none"
        document.querySelector("#bottom").style.zIndex = "9"
@@ -43,10 +41,8 @@ var swiper = new Swiper(".mySwiper", {
     document.querySelector("#cross").addEventListener("click",function(){
         document.querySelectorAll(".pop").forEach(function(e){
             e.style.display= "none"
-            document.querySelectorAll(".swiper-slide").forEach(function(a){
-                a.style.opacity = "1"
-            })
-         
+       
+          
           
             document.querySelector("#cross").style.display = "none"
             document.querySelector("#page4").style.display = "inherit"
@@ -64,9 +60,7 @@ var swiper = new Swiper(".mySwiper", {
         elem.addEventListener("click",function(){
             document.querySelectorAll(".pop").forEach(function(e){
                 e.style.display= "none"
-                document.querySelectorAll(".swiper-slide").forEach(function(a){
-                    a.style.opacity = "1"
-                })
+               
                 
                 document.querySelector("#cross").style.display = "none"
                 document.querySelector("#page4").style.display = "inherit"
